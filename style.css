@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ffbb5c;
+}
+h1{
+    padding: 1.2em;
+}
+.container{
+    text-align: center;
+}
+.navbar{
+    background-color: #ff9b50;
+    display: flex;
+    justify-content: space-evenly
+    
+}
+.navbar_item{
+    font-size: 1.5em;
+    padding: 1em;
+    text-decoration: none;
+    color: #c63d2f;
+}
+.navbar_item:hover{
+    cursor: pointer;
+    background-color: #e25e3e;
+    color: black;
+    transition: .9s;
+}
