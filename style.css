@@ -5,18 +5,40 @@
 body{
     background-color: #ffbb5c;
 }
-h1{
+h1,h2 {
     padding: 1.2em;
+    font-size: 3em;
 }
+
+
 .container{
     text-align: center;
+    
 }
 .navbar{
     background-color: #ff9b50;
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    
     
 }
+.intro{
+    padding-top: 5px;
+    
+    display: flex;
+}
+img{
+    max-width: 50%;
+}
+#john{
+    flex-basis: 40%;
+}
+.text{
+    font-size: 2em;
+    padding-left: 2em;
+    padding-top: 2.9em;
+}
+
 .navbar_item{
     font-size: 1.5em;
     padding: 1em;
