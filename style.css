@@ -49,5 +49,34 @@ img{
     cursor: pointer;
     background-color: #e25e3e;
     color: black;
-    transition: .9s;
+    transition: .4s;
+}
+
+.exp_list{
+    background-color: #e25e3e;
+    padding-bottom: 2em;
+}
+
+li {
+    font-size: 2em;
+}
+li>p{
+    font-size: 0.7em;
+}
+
+.projects_items{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    
+}
+
+.projects_items>p{
+    padding: 2em;
+
+}
+
+footer{
+    height: 20em;
+    background-color: #c63d2f;
 }
