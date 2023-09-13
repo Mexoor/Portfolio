@@ -6,7 +6,7 @@ body{
     background-color: #ffbb5c;
 }
 h1,h2 {
-    padding: 1.2em;
+    padding: 1em;
     font-size: 3em;
 }
 
@@ -57,10 +57,11 @@ img{
     padding-bottom: 2em;
 }
 
-li {
+li{
     font-size: 2em;
+    padding-bottom: 1em;
 }
-li>p{
+li > p{
     font-size: 0.7em;
 }
 
@@ -68,12 +69,10 @@ li>p{
     display: flex;
     justify-content: center;
     font-size: 1.5em;
-    
 }
 
-.projects_items>p{
-    padding: 2em;
-
+.projects_items > p{
+    padding-bottom: 1em;
 }
 
 footer{
@@ -82,4 +81,16 @@ footer{
 }
 i{
     padding-left: 2px;
+}
+
+@media screen and (max-width: 475px){
+    .text{
+        font-size: 1em;
+    }
+    h1,h2{
+        font-size: 2em;
+    }
+    li{
+        font-size: 1.5em;
+    }
 }
