@@ -83,6 +83,13 @@ i{
     padding-left: 2px;
 }
 
+.footer_div{
+    text-align: left;
+    font-size: 0.7em;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
 @media screen and (max-width: 475px){
     .text{
         font-size: 1em;
@@ -91,6 +98,12 @@ i{
         font-size: 2em;
     }
     li{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .text{
         font-size: 1.5em;
     }
 }
