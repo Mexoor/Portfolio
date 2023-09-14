@@ -19,12 +19,9 @@ h1,h2 {
     background-color: #ff9b50;
     display: flex;
     justify-content: space-evenly;
-    
-    
 }
 .intro{
     padding-top: 5px;
-    
     display: flex;
 }
 img{
