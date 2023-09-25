@@ -10,12 +10,11 @@ h1,h2 {
     font-size: 3em;
 }
 
-
-.container{
+.container2{
     text-align: center;
     
 }
-.navbar{
+.navbar2{
     background-color: #ff9b50;
     display: flex;
     justify-content: space-evenly;
@@ -119,5 +118,33 @@ i{
 @media screen and (max-width: 650px){
     .text{
         font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 810px){
+    #phone{
+        font-size: 30px;
+    }
+    #email{
+        font-size: 30px;
+    }
+    .boxes{
+        height: fit-content;
+    }
+}
+@media screen and (max-width: 540px){
+    #phone{
+        font-size: 20px;
+    }
+    #email{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 360px){
+    #phone{
+        font-size: 15px;
+    }
+    #email{
+        font-size: 15px;
     }
 }
